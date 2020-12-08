@@ -1,5 +1,7 @@
 # 2020-pent-house
  SSAFY PJT
 
-![이미지 이름](PPT1.jpg)
+![PPT1](PPT1.jpg)
+
+![PPT2](PPT2.jpg)
 
