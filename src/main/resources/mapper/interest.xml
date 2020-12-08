@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.repo.InterestRepo">
+
+
+	<!-- int addInterest(InterestDto interest); -->
+	<insert id="addInterest" parameterType="InterestDto">
+		insert into interest
+		(userId, sido, gugun, dong, code)
+		values(#{userId}, #{sido},
+		#{gugun}, #{dong}, #{code})
+	</insert>
+	
+	<!-- List<InterestDto> getInterest(userId); -->
+	<select id="getInterest" parameterType="String" resultType="InterestDto">
+		select * from interest
+		where userId=#{userId}
+	</select>
+
+	<!-- int removeInterest(InterestDto interest); -->
+	<delete id="removeInterest" parameterType="String">
+		delete from interest where userId=#{userId} and code=#{code}
+	</delete>
+</mapper>

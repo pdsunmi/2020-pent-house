@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.repo.HouseMapRepo">
+
+
+	<!-- List<SidoGugunCodeDto> getSido() -->
+	<select id="getSido" resultType="HouseCodeDto">
+		select left(sidocode,2)
+		sidocode, sidoname from sido_code
+		order by sidocode
+	</select>
+
+	<!-- List<SidoGugunCodeDto> getGugunInSido(String sido) -->
+	<select id="getGugunInSido" parameterType="string"
+		resultType="HouseCodeDto">
+		select left(guguncode,5) guguncode, gugunname from
+		gugun_code
+		where left(guguncode,2)=#{sido}
+		order by guguncode
+	</select>
+
+
+	<!-- List<HouseDealDto> getDongInGugun(String gugun) -->
+	<select id="getDongInGugun" parameterType="string"
+		resultType="HouseCodeDto">
+		select dongname from dong_code
+		where left(dongcode,5)=#{gugun}
+		order by dongcode
+	</select>
+</mapper>

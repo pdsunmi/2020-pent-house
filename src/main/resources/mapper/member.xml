@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.repo.MemberRepo">
+
+
+	<!-- MemberDto select(Connection con, String id) throws SQLException; -->
+	<select id="select" parameterType="String"
+		resultType="MemberDto">
+		select * from member where id= #{userid}
+	</select>
+
+	<!-- //insert int insert(Connection con, MemberDto member) -->
+	<insert id="insert" parameterType="MemberDto">
+		insert into member
+		(id, name,
+		password, email, address, phone, role)
+		values(#{id}, #{name},
+		#{password}, #{email}, #{address}, #{phone}, #{role} )
+	</insert>
+	
+	<!-- //update int update(Connection con, MemberDto member) -->
+	<update id="update" parameterType="MemberDto">
+		update member
+		set name=#{name},
+		password=#{password}, email=#{email}, address=#{address},
+		phone=#{phone} where id=#{id}
+	</update>
+	
+	
+	<!-- //delete
+	int delete(Connection con, String id) throws -->
+
+	<delete id="delete" parameterType="String">
+		delete from member where id=#{id}
+	</delete>
+</mapper>
