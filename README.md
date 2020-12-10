@@ -31,9 +31,9 @@
 
 ![메인 화면](capture/3.png)
 
-소개
+페이지 소개
 
-![소개](capture/7.png)
+![페이지 소개](capture/7.png)
 
 <a name="login"></a>
 ## Join / Login
@@ -51,29 +51,28 @@
 
 <a name="search"></a>
 ## Search
-2020년 06월 봉천동 아파트 매매 실거래 내역 검색
+2020년 06월 / 봉천동 / 아파트 / 매매 실거래 내역 검색
 
-![검색](capture/7.png)
+![검색](capture/8.png)
 
-관심지역 등록을 통한 간편한 검색
+`관심지역` 등록을 통한 간편한 검색
 
-![관심지역](capture/8.png)
+![관심지역](capture/9.png)
 
 <a name="notice"></a>
 ## Notice
 메인화면에서 공지사항 확인
 
-![공지사항](capture/9.png)
+![공지사항](capture/10.png)
 
 공지사항 전체 보기 - 페이징 처리
 
-![공지사항 전체 보기](capture/10.png)
+![공지사항 전체 보기](capture/11.png)
 
 공지사항 제목 검색
 
-![공지사항 제목 검색](capture/11.png)
+![공지사항 제목 검색](capture/12.png)
 
-![IMG](capture/12.png)
 ![IMG](capture/13.png)
 ![IMG](capture/14.png)
 ![IMG](capture/15.png)
