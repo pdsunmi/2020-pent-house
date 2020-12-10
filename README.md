@@ -7,7 +7,7 @@
 > 
 > 개발 인원 : 2명
 > 
-> 적용 기술 : Spring Boot / Vue.js /Node.js / MyBatis / Google Maps API / BootStrap
+> 사용 기술 : Spring Boot / Vue.js /Node.js / MyBatis / Google Maps API / BootStrap
  - [Intro](#intro)
  - [Main](#main)
  - [Join / Login](#login)
@@ -15,15 +15,19 @@
 
 <a name="intro"></a>
 ## Intro
-![IMG](capture/1.jpg)
-![IMG](capture/2.jpg)
+사용 기술
+![사용 기술](capture/1.jpg)
+역할 분담
+![역할 분담](capture/2.jpg)
 <a name="main"></a>
 ## Main
-![IMG](capture/3.jpg)
-![IMG](capture/7.png)
+메인 화면
+![메인 화면](capture/3.png)
+소개
+![소개](capture/7.png)
 <a name="login"></a>
 ## Join / Login
-![IMG](capture/4.jpg)
+![IMG](capture/4.png)
 ![IMG](capture/5.png)
 ![IMG](capture/6.png)
 
