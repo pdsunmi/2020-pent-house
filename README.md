@@ -13,6 +13,8 @@
  - [Join / Login](#login)
  - [Search](#search)
  - [Notice](#notice)
+ - [News](#news)
+ - [Review](#review)
 
 <a name="intro"></a>
 ## Intro
@@ -49,9 +51,13 @@
 
 ![회원 정보 수정](capture/6.png)
 
+회원 탈퇴
+
+![회원 탈퇴](capture/18.png)
+
 <a name="search"></a>
 ## Search
-2020년 06월 / 봉천동 / 아파트 / 매매 실거래 내역 검색
+`2020년 06월` `봉천동` `아파트` `매매` 실거래 내역 검색
 
 ![검색](capture/8.png)
 
@@ -61,21 +67,38 @@
 
 <a name="notice"></a>
 ## Notice
-메인화면에서 공지사항 확인
+메인 화면에서 공지사항 확인
 
 ![공지사항](capture/10.png)
 
-공지사항 전체 보기 - 페이징 처리
+공지사항 전체 보기 (페이징 처리)
 
 ![공지사항 전체 보기](capture/11.png)
 
-공지사항 제목 검색
+공지사항 `제목` 검색
 
 ![공지사항 제목 검색](capture/12.png)
 
-![IMG](capture/13.png)
-![IMG](capture/14.png)
-![IMG](capture/15.png)
-![IMG](capture/16.png)
-![IMG](capture/17.png)
-![IMG](capture/18.png)
+공지사항 상세보기
+
+![공지사항 상세보기](capture/13.png)
+
+<a name="news"></a>
+## News
+메인 화면에서 오늘의 뉴스 확인
+
+![오늘의 뉴스](capture/14.png)
+
+오늘의 뉴스 전체 보기
+
+![오늘의 뉴스 전체 보기](capture/15.png)
+
+<a name="review"></a>
+## Review
+메인 화면에서 고객 후기 확인
+
+![고객 후기](capture/16.png)
+
+고객 후기 전체 보기
+
+![고객 후기 전체 보기](capture/17.png)
