@@ -17,14 +17,18 @@
 <a name="intro"></a>
 ## Intro
 사용 기술
+
 ![사용 기술](capture/1.jpg)
 역할 분담
+
 ![역할 분담](capture/2.jpg)
 <a name="main"></a>
 ## Main
 메인 화면
+
 ![메인 화면](capture/3.png)
 소개
+
 ![소개](capture/7.png)
 <a name="login"></a>
 ## Join / Login
