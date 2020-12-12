@@ -7,7 +7,7 @@
 > 
 > 개발 인원 : 2명
 > 
-> 사용 기술 : Spring Boot / Vue.js /Node.js / MyBatis / Google Maps API / BootStrap
+> 사용 기술 : Spring Boot / Vue.js / Node.js / MyBatis / Google Maps API / BootStrap
  - [Intro](#intro)
  - [Main](#main)
  - [Join / Login](#login)
